@@ -328,7 +328,7 @@ animation: run 1s steps(59, end) 1s}
 #math{font-style: normal;}
 .area{width: 100%;padding: 80px 0;overflow: hidden;}
 .areaimg{max-width: 1200px;margin: 0 auto;position: relative;}
-.arealist{min-width: 1000px;margin: 0 auto;margin-top: 45px;overflow: hidden;max-width: 1440px;}
+.arealist{min-width: 1000px;margin: 0 auto;margin-top: 45px;overflow: hidden;max-width: 1200px;}
 .l1{height: 50px;float: left;padding: 0 30px;}
 .l1 img{width: 50px;height: 50px;float: left;}
 .l1 p{font-size: 12px;line-height: 50px;padding-left: 10px;float: left}
