@@ -257,27 +257,27 @@ display: block;
 .sixbox ul li h2{margin: 15px 0;}
 .sixbox ul li a:hover .six-icon.icon-p1{
 	-webkit-animation: run 1.5s steps(59, end) 1s ;
-animation: run 1.5s steps(59, end) 1s ;}
+animation: run 1.5s steps(59, end) 1s ;transition-timing-function:linear;}
 
 .sixbox ul li a:hover .six-icon.icon-p2{
 	-webkit-animation: run 1s steps(59, end) 1s ;
-animation: run 1s steps(59, end) 1s}
+animation: run 1s steps(59, end) 1s;transition-timing-function:linear;}
 
 .sixbox ul li a:hover .six-icon.icon-p3{
 	-webkit-animation: run 1s steps(59, end) 1s ;
-animation: run 1s steps(59, end) 1s}
+animation: run 1s steps(59, end) 1s;transition-timing-function:linear;}
 
 .sixbox ul li a:hover .six-icon.icon-p4{
 	-webkit-animation: run 1s steps(59, end) 1s ;
-animation: run 1s steps(59, end) 1s}
+animation: run 1s steps(59, end) 1s;transition-timing-function:linear;}
 
 .sixbox ul li a:hover .six-icon.icon-p5{
 	-webkit-animation: run 1s steps(59, end) 1s ;
-animation: run 1s steps(59, end) 1s}
+animation: run 1s steps(59, end) 1s;transition-timing-function:linear;}
 
 .sixbox ul li a:hover .six-icon.icon-p6{
 	-webkit-animation: run 1s steps(59, end) 1s ;
-animation: run 1s steps(59, end) 1s}
+animation: run 1s steps(59, end) 1s;transition-timing-function:linear;}
 
 @keyframes run{
     0%{  background-position: 0 0 }
