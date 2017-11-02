@@ -220,7 +220,7 @@ display: block;
 
 
 .lunbo{width: 100%;margin: 20px auto;overflow: hidden;}
-.lunbowrap{position: relative;}
+.lunbowrap{position: relative;min-width: 1200px;margin: 0 auto;}
 .lunbowrap ul li{width: 269px;height: 392px;float: left;position: relative;}
 .lunbowrap ul li img{width: 100%;}
 .not,.not-hover{position: absolute;text-align: center;width: 100%;height: 100%;}
@@ -317,7 +317,7 @@ animation: run 1s steps(59, end) 1s}
 .sorelist{max-width: 1200px;overflow: hidden;margin: 0 auto;}
 .sorebox{padding: 0 10px;float:left;overflow: hidden;width: 31%;}
 .soreimg{border:1px solid #c5d8db;overflow: hidden;margin-bottom: 15px;}
-.soreimg img{width: 100%;height: 170px;transition: all 0.3s;overflow: hidden;}
+.soreimg img{width: 100%;transition: all 0.3s;overflow: hidden;}
 .soreimg p{padding: 15px;background-color: #fff;}
 .soreimg:hover img{transform: scale(1.2);}
 .height{height: 170px;overflow: hidden;}
@@ -328,7 +328,7 @@ animation: run 1s steps(59, end) 1s}
 #math{font-style: normal;}
 .area{width: 100%;padding: 80px 0;overflow: hidden;}
 .areaimg{max-width: 1200px;margin: 0 auto;position: relative;}
-.arealist{max-width: 1200px;margin: 0 auto;margin-top: 45px;overflow: hidden;margin-left: 200px;}
+.arealist{min-width: 1000px;margin: 0 auto;margin-top: 45px;overflow: hidden;padding-left: 200px;}
 .l1{height: 50px;float: left;padding: 0 30px;}
 .l1 img{width: 50px;height: 50px;float: left;}
 .l1 p{font-size: 12px;line-height: 50px;padding-left: 10px;float: left}

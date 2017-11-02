@@ -806,8 +806,11 @@
           suffix : '' 
     };
     var demo = new CountUp("math", 0, 1578310349, 0, 2.5, options);
+    var height=$('.math').offset().top;
+    console.log(height);
     $(window).scroll(function(){
-        if($(window).scrollTop()>=600){
+
+        if($(window).scrollTop()>=height-885){
             demo.start();
         }
     })
